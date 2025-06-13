@@ -35,7 +35,7 @@ const addProduct = async(req, res)=>{
         console.log(productData);
         const product = new productModel(productData)
         await product.save()
-        res.json({message: "Product added successfully"})
+        res.json({success:true,message: "Product added successfully"})
         
     } catch (error) {
         console.log(error)
@@ -83,6 +83,7 @@ const singleProducts = async (req,res) => {
     }
     
 }
+
 
 
 export {listProducts, addProduct, removeProducts, singleProducts}
