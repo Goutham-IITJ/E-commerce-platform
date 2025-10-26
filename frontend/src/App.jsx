@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-//import List from "../../admin/src/pages/List";
+import List from "../../admin/src/pages/List";
 
 const App = () => {
   const [token, setToken] = useState(null);
@@ -34,10 +34,11 @@ const App = () => {
         <Route path="/login" element={<Login setToken={setToken} />} />
         <Route path="/place-order" element={<PlaceOrder />} />
         <Route path="/orders" element={<Orders />} />
+        <Route path="/admin/src/pages/List" element={<List token={token} />} />
       </Routes>
       <Footer />
     </div>
   );
 };
-//<Route path="/admin/src/pages/List" element={<List token={token} />} /> */}
+
 export default App;
