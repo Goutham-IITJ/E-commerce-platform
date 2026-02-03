@@ -3,9 +3,9 @@
 A professional, full-stack e-commerce solution featuring a customer-facing storefront, a dedicated administrative dashboard, and a robust RESTful API. This project is built using the MERN stack and optimized for high-performance deployments on Vercel.
 
 ## 🚀 Live Links
-- **Frontend Store:** `https://e-commerce-platform-plum.vercel.app`
-- **Admin Dashboard:** `https://e-commerce-platform-admin.vercel.app`
-- **Backend API:** `https://e-commerce-backend-teal-five.vercel.app`
+- **Frontend Store:** https://e-commerce-platform-plum.vercel.app
+- **Admin Dashboard:** https://e-commerce-platform-admin.vercel.app
+- **Backend API:** https://e-commerce-backend-teal-five.vercel.app
 
 ---
 
