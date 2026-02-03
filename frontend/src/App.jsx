@@ -34,7 +34,7 @@ const App = () => {
         <Route path="/login" element={<Login setToken={setToken} />} />
         <Route path="/place-order" element={<PlaceOrder />} />
         <Route path="/orders" element={<Orders />} />
-        <Route path="/admin/src/pages/List" element={<List token={token} />} />
+        
       </Routes>
       <Footer />
     </div>
